@@ -1,6 +1,6 @@
 body{
   background: #d2d2c1 url('img/fundo.png');
-  font:"Helvetica", "sans serif";
+  font: 16px "Helvetica", "sans serif";
 }
 
 a{
@@ -10,7 +10,7 @@ a{
 }
 
 img.img-bordada{
-  border: 10px solid gray;
+  border: 10px solid #c5c5b2;
 }
 
 #container{
@@ -31,4 +31,8 @@ img.img-bordada{
   background-color: #e8e8d9;
   width: 860px;
   padding: 20px;
+}
+
+#conteudo > h3{
+  font: 2em;
 }
